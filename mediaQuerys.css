@@ -50,15 +50,24 @@
 
 
 @media (max-width:700px) {
+    .div-noticias::after{
+        content: " ";
+        width:0px;
+        position: relative;        
+    }
 
     .noticias-rigth{
         border-bottom: 1px solid  #E5E5E5;
+        margin-bottom: 10px;
         
     }
 
     .noticias-left{
         border-bottom: 1px solid  #E5E5E5;
     
+    }
+    .noticias-rigth{
+    margin-left: 0;
     }
     
     .link-receitas{
@@ -95,6 +104,9 @@
 
 @media (max-width:375px) {
 
+    .noticias-rigth{
+        margin-bottom: 10px;
+    }
     .txt-ajuste{
         display: flex;
     }
@@ -108,7 +120,7 @@
         height: 67.37px;
     }
   
-
+    
   
 
    .titulo-materia-principal{
